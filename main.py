@@ -38,8 +38,6 @@ class example_thread(QThread):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-
     myWindow = main_window()
     myWindow.show()
-
     app.exec_()
